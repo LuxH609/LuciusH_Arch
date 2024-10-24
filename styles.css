@@ -3,6 +3,7 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
 nav {
@@ -73,12 +74,12 @@ nav {
 .about-section {
     display: flex;
     position: relative;
-    height: 100vh;
+    height: 145vh;
     color: white;
 }
 
 .background-image {
-    background-image: url('10.1_SECTION CUT WITH NOTES.jpg');
+    background-image: url('home_bg1.png');
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -86,7 +87,7 @@ nav {
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: 0.3; 
+    opacity: 0.5; 
     z-index: -1; 
 }
 
@@ -94,24 +95,31 @@ nav {
     display: flex;
     width: 100%;
     padding: 50px;
+    padding-left: 25vh;
+    margin-left: auto;
     color: white;
-    justify-content: space-between;
+    justify-content: flex-start;
+    min-height: auto;
 }
 
 .left-column {
+
     flex: 1;
-    max-width: 300px; 
+    max-width: 200px; 
     margin-right: 20px;
+    font-size: 13px;
+    line-height: 0.3;
 }
 
 .profile-image {
-    width: 100%;
+    width: 70%;
+    margin:30px; 
     border-radius: 10px; 
     margin-bottom: 20px;
 }
 
 .contact-info {
-    background-color: rgba(0, 0, 0, 0.6); 
+    background-color: rgba(0, 0, 0, 0.5); 
     padding: 20px;
     border-radius: 10px;
 }
@@ -127,17 +135,25 @@ nav {
 
 .right-column {
     flex: 2;
-    background-color: rgba(0, 0, 0, 0.6); 
+    background-color: rgba(0, 0, 0, 0.5); 
+    max-width: 1000px;
+    height:auto;
+    justify-content: flex-start;
     padding: 30px;
     border-radius: 10px;
+    font-size: 15px;
 }
 .right-column-TPMS {
     flex: 2;
     background-color: rgba(255, 252, 252, 0); 
+    max-width: 1000px;
+    height:auto;
+    justify-content: flex-start;
     padding: 30px;
+    padding-bottom: 30px;
     border-radius: 10px;
+    margin-bottom: 50px;
     font-family:Arial, Helvetica, sans-serif;
-    font-style:italic;
     color:#555;
 }
 
@@ -153,6 +169,14 @@ nav {
     line-height: 1.6; 
 }
 
+.left-column p {
+    line-height: 1.2;
+}
+
+.citation{
+    color:dodgerblue;
+}
+
 strong {
     font-weight: bold;
 }
@@ -162,6 +186,7 @@ table {
     margin:0%;
 }
 
+
 table, td {
     border: 1px solid rgb(149, 174, 41);
 }
@@ -169,6 +194,23 @@ table, td {
 td {
     padding: 10px;
     text-align: center;
+}
+
+/* Links */
+a:link {
+    color: #8b44ba;
+}
+
+a:visited {
+    color: #b7b4b4;
+}
+
+a:hover {
+    color: #8026bd;
+}
+
+a:active {
+    color:  #8026bd;
 }
 
 #footer {
