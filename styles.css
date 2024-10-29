@@ -133,6 +133,31 @@ nav {
     text-decoration: underline; 
 }
 
+
+.left-column-nocturne {
+    flex: 1;
+    max-width: 300px; 
+    margin-right: 0px;
+    font-size: 13px;
+    line-height: 1.1;
+}
+
+.project-info {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.project-info a {
+    color: #5bbad5; 
+    text-decoration: none;
+}
+
+.project-info a:hover {
+    text-decoration: underline; 
+}
+
+
 .right-column {
     flex: 2;
     background-color: rgba(0, 0, 0, 0.5); 
@@ -167,6 +192,15 @@ nav {
 
 .right-column p {
     line-height: 1.6; 
+}
+
+.image-nocturne {
+    width: 100%;
+    margin-top:-30px; 
+    margin-left: 10px;
+    margin-right: 30px;
+    border-radius: 10px; 
+    margin-bottom: 20vh;
 }
 
 .left-column p {

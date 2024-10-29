@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-s">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lucius Hu - PORTFOLIO - home</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#">Arch Projects</a>
+                        <ul class="dropdown-content">
+                            <li><a href="#">Project 1</a></li>
+                            <li><a href="#">Project 2</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Computational Design</a>
+                        <ol class="dropdown-content">
+                            <li><a href="#">The Coral (2020)</a></li>
+                            <li><a href="#">The Nocturne (2024)</a></li>
+                            <li><a href="#">Marception Competition 2024</a></li>
+                            <li><a href="#">Facade Test Collection (2024)</a></li>
+                            <li><a href="TPMS.html">Triply Periodic Minimal Surface(TPMS) & Data Center</a></li>
+                        </ol>
+                    </li>
+                    <li class="dropdown"><a href="#">Game</a></li>
+                    <li class="dropdown"><a href="#">Research</a></li>
+                    <li class="dropdown"><a href="#">Interests</a></li>
+                </ul>
+            </nav>
+            <section class="about-section">
+                <div class="about-content">
+                    <div class="left-column-nocturne">
+                        <div class="project-info">
+                            <h3>THE NOCTURNE</h3>
+                            <p>Ladies and Gentlemen, I am pleased to introduce to you the groundbreaking project in New York - "The Nocturne: Continental Hotel." </p>
+                            <p>This project aims to combine vampire culture with modern technology, creating an extraordinary bio-tech spectacle. As a haven and gathering place for vampires, this building merges cutting-edge technology with biotechnology. From the exterior to the interior, it exudes a unique Gothic taste.
+                                Our guest rooms are the epitome of luxury. Each room is equipped with state-of-the-art bio-tech facilities, including daylight protection systems and smart home devices. Whether it's daytime secret slumber or nighttime revelry, our guests can enjoy unparalleled comfort and safety.</p>
+                            <p> In this hotel, you are not just a guest but also a distinguished member of the vampire community. The Nocturne is luxurious and unique,  your journey into the trendy vampire nightlife of New York starts here.</p>
+                            <br>
+                            <h3>PROJECT INFO</h3>
+                            <p>Location: 180 Maiden Ln, NY 10038, USA</p>
+                            <p>Project Type: Parametric design based on existing building condition</p>
+                            <p>Building Type: Commercial & Office (before), Hotel & Commercial (after)</p>
+                            <p>Design Period: January 2024 - now</p>
+                            <p>Main Tools: Grasshopper (Kangaroo, Lunchbox et. al), Rhino, Sub-D, Vray, Arduino</p>
+                            <p>Instructor: Anthony Samaha</p>
+                            <p><a href="https://drive.google.com/file/d/1NfY2k5JvztG5sUYjPEAt8L9osJ6eP2zb/view?usp=drive_link" target="_blank">Download PDF</a></p>
+                        </div>
+                    </div>
+                    <div class="right-column-TPMS">
+                        <img src="4.16_FINAL BOARD TEST_1.jpg" alt="The nocturne board" class="image-nocturne">
+                        <br><br><br><br><br>
+                    </div>
+                </div>
+            </section>
+            <footer id="footer">
+                <p>Copyright &copy; 1999-<span id="year"></span> LuciusHU. All Rights Reserved <span id="year"></span></p>
+            </footer>
+            
+            <script>
+                document.getElementById("year").textContent = new Date().getFullYear();
+            </script>
+    </body>
+</html>
